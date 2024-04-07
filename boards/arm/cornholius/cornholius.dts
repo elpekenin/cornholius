@@ -71,6 +71,7 @@
     wrapped_scan: soft_off_sideband_behaviors {
         compatible = "zmk,kscan-sideband-behaviors";
         kscan = <&kscan0>;
+        wakeup-source;
 
         soft_off_callback: soft_off_callback {
             row = <4>;
